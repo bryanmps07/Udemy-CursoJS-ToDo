@@ -3,11 +3,18 @@ import './styles.css';
 import { Todo, TodoList } from './classes';
 import { crearTodoHtml } from './js/componentes';
 
-const todolist = new TodoList();
+export const todoList = new TodoList();
 
-const tarea = new Todo('Aprender Javascritp');
-todolist.nuevoTodo( tarea );
+// const tarea = new Todo('Aprender Javascritp!!');
+// todoList.nuevoTodo( tarea );
 
-console.log(todolist);
+// console.log(todoList);
 
-crearTodoHtml( tarea );
+// crearTodoHtml( tarea );
+
+// localStorage.setItem('mi-key','ABC1234');
+// sessionStorage.setItem('mi-key','ABC1234');
+
+// setTimeout(() => {
+//     localStorage.removeItem();
+// }, 1500);
